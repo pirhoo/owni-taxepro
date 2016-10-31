@@ -1,0 +1,20 @@
+#header #cityname {
+    width: 305px;
+}
+#header #suggest ul,#header #suggest li {
+    padding: 0px;
+    maring: 0px;
+}
+#header #suggest{
+    z-index: 40;
+}
+#comments {
+    z-index: 100;
+}
+#commentc2a {
+width:300px;
+}
+#feedback {
+
+width:280px;
+}

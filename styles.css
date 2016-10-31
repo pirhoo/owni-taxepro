@@ -1,0 +1,402 @@
+popuroot {
+    display: block;
+}
+body, form {
+font-family:Trebuchet MS,Arial,Helvetica,sans-serif;
+font-size:11px;
+margin:0;
+padding:0;
+}
+ul li {
+margin:0;
+padding:0;
+}
+ul {
+list-style-type:none;
+}
+#container {
+background:url("img/_fond.jpg") no-repeat scroll left top transparent;
+height:667px;
+left:0;
+position:absolute;
+top:0;
+width:990px;
+}
+#header {
+height:77px;
+left:0;
+position:absolute;
+top:0;
+width:990px;
+}
+#header #title {
+height:77px;
+left:0;
+position:absolute;
+top:0;
+width:240px;
+}
+#header #title #apropos {
+background:url("img/a-propos.png") no-repeat scroll left top transparent;
+cursor:pointer;
+display:block;
+height:29px;
+left:17px;
+position:absolute;
+top:4px;
+width:142px;
+}
+#header #cityname {
+background-color:white;
+border:1px solid #DAC4AD;
+font-size:1.5em;
+height:25px;
+left:294px;
+line-height:1.5em;
+min-width:305px;
+position:absolute;
+text-align:center;
+top:77px;
+z-index:9;
+}
+#header #cityname #pointer {
+background:url("img/pointer.png") no-repeat scroll 0 0 transparent;
+height:13px;
+left:155px;
+position:absolute;
+top:-12px;
+width:16px;
+}
+#tabs {
+position:absolute;
+z-index:10;
+}
+#header #searchpad {
+left:380px;
+position:absolute;
+text-indent:4px;
+top:15px;
+}
+#suggest {
+background:url("img/suggest_bg.jpg") repeat-x scroll left bottom white;
+display:none;
+font-size:1.2em;
+left:383px;
+padding:2px;
+position:absolute;
+top:52px;
+z-index:100;
+}
+#suggest ul {
+list-style-type:none;
+padding:5px 0;
+margin: 0px;
+}
+#suggest ul li {
+cursor:pointer;
+margin: 0px;
+}
+#suggest ul li:hover {
+background-color:#E1C586;
+}
+#tabs {
+cursor:pointer;
+height:20px;
+left:600px;
+position:absolute;
+top:21px;
+width:120px;
+}
+#tabs div {
+height:68px;
+position:absolute;
+width:187px;
+}
+#tab1 {
+background:url("img/tab_ressources.png") no-repeat scroll left top transparent;
+left:0;
+top:0;
+}
+#tab2 {
+background:url("img/tab_compensation.png") no-repeat scroll -186px 0 transparent;
+left:187px;
+top:0;
+}
+#content {
+}
+#export {
+left:555px;
+position:absolute;
+top:120px;
+display:block;
+height:30px;
+width:146px;
+}
+#export a {
+display:block;
+height:30px;
+width:146px;
+}
+#export img {border: none; display: block; position: absolute;}
+#content1 {
+background:url("img/compensation.png") no-repeat scroll left top transparent;
+display:none;
+height:470px;
+left:40px;
+position:absolute;
+top:120px;
+width:668px;
+}
+#content1 #data div {
+font-size:1.8em;
+height:40px;
+letter-spacing:-1px;
+position:absolute;
+text-align:right;
+width:137px;
+line-height:22px;
+}
+#content1 #data span {
+    font-size: 0.8em;
+}
+#content1 #data #ress2010 {
+left:143px;
+top:86px;
+}
+#content1 #data #ress2010reforme {
+left:169px;
+top:268px;
+}
+#content1 #data #ressFNGIR {
+left:260px;
+top:161px;
+}
+#content1 #data #ressDotation {
+left:431px;
+top:123px;
+}
+#content1 #picto1 {
+height:144px;
+left:0;
+position:absolute;
+top:4px;
+width:146px;
+}
+#content1 #picto2 {
+height:163px;
+left:9px;
+position:absolute;
+text-align:center;
+top:223px;
+width:166px;
+}
+#content2 {
+display:none;
+left:0;
+position:absolute;
+top:0;
+}
+#content2 img {
+left:90px;
+position:absolute;
+top:170px;
+}
+#content2 #timeline {
+background:url("img/graph_timeline.png") no-repeat scroll left top transparent;
+height:31px;
+left:11px;
+position:absolute;
+top:570px;
+width:640px;
+}
+#content2 #legend {
+display:block;
+height:83px;
+left:0;
+position:absolute;
+top:77px;
+width:300px;
+}
+#commentsbar {
+background:url("img/comment-bg-top.png") no-repeat scroll 0 0 transparent;
+display:block;
+height:410px;
+left:708px;
+position:absolute;
+top:76px;
+width:282px;
+z-index: 8;
+}
+
+#commentsbar #middle {
+background:url("img/comment-bg.png") repeat-y scroll left top transparent;
+display:block;
+height:400px;
+left:0;
+position:absolute;
+top:10px;
+width:282px;
+z-index: 9;
+}
+#comments {
+height:380px;
+left:0;
+overflow:auto;
+padding:10px 20px;
+position:absolute;
+top:0;
+width:238px;
+z-index: 10;
+
+}
+#comments ul {
+list-style-type:none;
+margin: 0px;
+padding: 0px
+}
+#comments ul li {
+font-size:1.2em;
+padding:5px 0;
+margin: 0px;
+}
+#comments ul li p.auteur {
+color:#808285;
+margin:0;
+padding:0;
+}
+#comments ul li p.auteur span {
+font-style:italic;
+}
+#comments ul li p.comment {
+color:#4C4C4C;
+margin:0;
+padding:0;
+}
+#commentc2a {
+background:url("img/contribute-btn.png") no-repeat scroll left top transparent;
+cursor:pointer;
+font-size:1.2em;
+height:108px;
+left:708px;
+padding:55px 13px 13px;;
+position:absolute;
+top:485px;
+width:256px;
+}
+#feedback {
+left:348px;
+min-height:340px;
+padding:40px 30px 30px;
+position:absolute;
+top:112px;
+width:190px;
+}
+#feedback .formrow {
+display:block;
+padding:4px 0;
+width:190px;
+}
+#feedback .formlabel {
+padding:4px 0;
+}
+#feedback #error {
+color:red;
+}
+input {border:1px solid #4C4C4D;}
+#feedback input {
+width:190px;
+}
+#feedback textarea {
+border:1px solid #4C4C4D;
+height:80px;
+width:190px;
+}
+#feedback input.submit {
+float:right;
+width:auto;
+}
+#feedback input.error {
+border:1px solid red;
+}
+#feedback #commentaire_titre {
+background:url("img/commentaire_titre.gif") no-repeat scroll left top transparent;
+height:40px;
+left:21px;
+position:absolute;
+top:10px;
+width:163px;
+}
+#alert {
+display:none;
+left:340px;
+min-height:100px;
+min-width:320px;
+position:absolute;
+top:190px;
+}
+.popup {
+background-color:white;
+border:4px solid #497692;
+display:none;
+position:absolute;
+z-index:10;
+}
+.close {
+background:url("img/close.gif") no-repeat scroll right top transparent;
+cursor:pointer;
+height:34px;
+position:absolute;
+right:5px;
+top:5px;
+width:36px;
+}
+.content {
+padding:30px 20px;
+}
+#help {
+display:block;
+left:300px;
+position:absolute;
+top:59px;
+width:400px;
+z-index:100;
+}
+#footer {
+height:48px;
+left:0;
+position:absolute;
+top:619px;
+width:990px;
+}
+#footer img#logo {
+top: 4px;
+left: 4px;
+position:absolute;
+}
+#footer #social {
+display:block;
+left:400px;
+position:absolute;
+top:7px;
+width:490px;
+}
+#footer #social div {
+display:block;
+float:left;
+height:38px;
+}
+#footer #social div#left {
+background:url("img/social_left.png") no-repeat scroll left top transparent;
+width:16px;
+}
+#footer #social div#middle {
+background:url("img/social_bg.png") repeat-x scroll left top transparent;
+width:360px;
+padding:9px;
+text-align: center;
+}
+#footer #social div#right {
+background:url("img/social_right.png") no-repeat scroll left top transparent;
+width:16px;
+}
+
